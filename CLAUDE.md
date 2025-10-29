@@ -153,3 +153,10 @@ When making changes:
 - **Turbo Caching**: Turbo caches build outputs. Use `turbo build --force` to bypass cache if needed
 - **ESLint Strictness**: Zero warnings policy is enforced. Fix all warnings, don't ignore them
 - **Workspace Protocol**: Internal dependencies use `"*"` version (workspace protocol) to always reference local packages
+
+## Active Technologies
+- TypeScript 5.9.2-5.9.3 with Next.js 15.5 (apps/web) and Next.js 16.0 (packages/docs), React 19.1-19.2 + Next.js App Router, React 19, Turborepo 2.5.8, Bun 1.3.0, Fumadocs (fumadocs-core 16.0.5, fumadocs-ui 16.0.5, fumadocs-mdx 13.0.2) (001-embed-docs-component)
+- N/A (documentation content in MDX files, no database) (001-embed-docs-component)
+
+## Recent Changes
+- 001-embed-docs-component: Added TypeScript 5.9.2-5.9.3 with Next.js 15.5 (apps/web) and Next.js 16.0 (packages/docs), React 19.1-19.2 + Next.js App Router, React 19, Turborepo 2.5.8, Bun 1.3.0, Fumadocs (fumadocs-core 16.0.5, fumadocs-ui 16.0.5, fumadocs-mdx 13.0.2)
